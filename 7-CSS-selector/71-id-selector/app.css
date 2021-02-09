@@ -1,0 +1,33 @@
+/* 
+The super fast color schemes generator!
+https://coolors.co/palettes/trending 
+
+4. ID SELECTOR:
+The CSS ID selector matches an element based on 
+the value of the element’s id attribute. 
+In order for the element to be selected, 
+its id attribute must match exactly the value given in the selector.
+*/
+
+/* 2.Element Selector */
+body {
+    background-color: #fdfcdc;
+}
+
+/* 2.Element Selector */
+button {
+    background-color: #0081a7;
+    font-size: 20px;
+    color: whitesmoke ;
+}
+
+/* 3.Element Selector List */
+h1, h2 {
+    color: #00afb9;
+}
+
+/* 4.ID Selector */
+#signup {
+    background-color: #00afb9;
+    color: white;
+}

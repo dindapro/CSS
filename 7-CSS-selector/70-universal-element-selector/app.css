@@ -1,0 +1,26 @@
+/* 
+1. Universal Selectors
+The CSS universal selector (*) matches elements of any type.
+
+2. Type/Element Selector
+The CSS type selector matches elements by node name. 
+In other words, it selects all elements of the given type within a document.
+
+3. ELEMENT SELECTOR LIST
+The CSS selector list (,) selects all the matching nodes.
+*/
+
+/* 1.Universal Selectors */
+* {
+  color: green;
+}
+
+/* 2.Element Selector */
+button {
+  font-size: 30px;
+}
+
+/* 3.Element Selector List */
+h1, h2 {
+  color: #cb997e;
+}

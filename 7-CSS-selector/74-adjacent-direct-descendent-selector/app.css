@@ -1,0 +1,63 @@
+/*
+7. ADJACENT SELECTOR 
+The adjacent sibling combinator (+) separates two selectors 
+and matches the second element only if it immediately follows 
+the first element, and both are children of the same parent element.
+
+8. DIRECT DESCENDENT SELECTOR
+The child combinator (>) is placed between two CSS selectors. 
+It matches only those elements matched by the second selector 
+that are the direct children of elements matched by the first.
+*/
+
+/* Element Selector List */
+h1,h2{
+    color: #cb997e;
+}
+
+/* Element Selector */
+body {
+    background-color: #f0efeb;
+}
+
+/* Element Selector */
+button{
+    background-color: #eddcd2;
+    font-size: 30px;
+}
+
+/* ID Selector */
+#signup{
+    background-color: #a5a58d;
+    color: #f0efeb;
+}
+
+/* Class Selectors */
+.tag2{
+    background-color: #e76f51;
+    font-size: larger;
+    color: #f1faee;
+}
+
+/* Descendent Selector */
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}
+
+/* ADJACENT SELECTOR */
+h2 + button {
+    font-size: 30px;
+    background-color: #fcf5c7;
+}
+
+/* DIRECT Descendent SELECTOR */
+footer > a {
+    color:#26b144;
+}
+

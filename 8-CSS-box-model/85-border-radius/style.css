@@ -1,0 +1,47 @@
+/* 
+
+The border-width 
+shorthand CSS property sets the width of an element's border.
+
+The border-color 
+shorthand CSS property sets the color of an element's border.
+
+The border-style 
+shorthand CSS property sets the line style for all four sides of an element's border.
+
+The box-sizing 
+CSS property sets how the total width and height of an element is calculated.
+
+*/
+
+h1 {
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: beige;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: solid;
+    box-sizing: border-box;
+}
+#two {
+    background-color: brown;
+    color: wheat;
+    border-width: 10px 15px 10px 0px;
+    border-color: blanchedalmond;
+    border-style: dotted ;
+}
+#three{
+    background-color: bisque;
+    border: medium solid black;
+    border-right-width: 10px;
+    border-right-style: double;
+    border-radius: 50%;
+}

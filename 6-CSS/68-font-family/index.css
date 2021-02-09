@@ -1,0 +1,26 @@
+/* 
+font-family:
+The font-family CSS property specifies a prioritized list 
+of one or more font family names and/or generic family names 
+for the selected element.
+*/
+
+/* 
+Reference Font-Family: https://www.cssfontstack.com/. 
+Mengenal jenis-jenis font dan kecocokan OS.
+Bisa memilih lebih dari 1 font
+*/
+
+h1 {
+     text-align: center;
+     font-weight: 400;
+     text-decoration: orange underline wavy;
+     letter-spacing: 15px;
+     font-size: 80px ;
+     font-family: fantasy, Verdana;
+}
+
+p {
+    line-height: 2;
+}
+

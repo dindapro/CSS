@@ -1,0 +1,25 @@
+/* 
+Reference: 
+https://htmlcolorcodes.com/color-names/
+Nama Warna yg biasa di gunakan
+Red, Blue, Gold, Black, White, Blue
+
+https://en.wikipedia.org/wiki/RGB_color_model
+Format Penulisan Color Sistem RGB:
+Color: RGB (0, 0 , 0)
+MAXIMAL 255 Dan Minimal 0
+*/
+
+
+button {
+    color: white;
+    background-color: black;
+}
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+p {
+    color: rgb(0, 150, 150);
+}
+

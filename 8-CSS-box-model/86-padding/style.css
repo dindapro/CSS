@@ -1,0 +1,53 @@
+/* 
+
+The padding CSS 
+shorthand property sets the padding area on all four sides of an element at once.
+
+padding
+padding-left
+padding-top
+padding-right
+
+*/
+
+h1 {
+    background-color: antiquewhite;
+    width: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: beige;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: solid;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+#two {
+    background-color: brown;
+    color: wheat;
+    border-width: 10px 30px 10px 0px;
+    border-color: blanchedalmond;
+    border-style: dotted ;
+    box-sizing: content-box;
+    padding: 1em 2em 2em;
+}
+#three{
+    background-color: bisque;
+    border: medium solid black;
+    border-right-width: 10px;
+    border-right-style: double;
+    border-radius: 50%;
+    padding: 50px;
+}
+button {
+    padding: 10px 20px 50px;
+}

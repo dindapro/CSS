@@ -1,0 +1,45 @@
+/* 
+mendemokan 
+padding dan border jika diubah 2x 
+absolute: 30px menjadi 60px 
+relative: 30px (1em menjadi 2em)
+*/
+
+article{
+    font-size: 30px;
+}
+/* absolute */
+section[class=initial] > button{
+    background-color: darkkhaki;
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+    /* border radius absolute tidak menyesuaikan font-size */
+}
+
+/* relative */
+article[class=initial] > button{
+    background-color: darkkhaki;
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    /* em akan menyesuaikan jika font-size di ubah */
+}
+
+/* absolute jika font-size diubah */
+section[class=tobe] > button{
+    background-color: darkkhaki;
+    font-size: 60px;
+    padding: 0 30px;
+    border-radius: 15px;
+    /* border radius absolute tidak menyesuaikan font-size */
+}
+
+/* relative jika font-size diubah */
+article[class=tobe] > button{
+    background-color: darkkhaki;
+    font-size: 2em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    /* em akan menyesuaikan jika font-size di ubah */
+}

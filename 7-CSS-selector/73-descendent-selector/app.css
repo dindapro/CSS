@@ -1,0 +1,58 @@
+/* 
+6. Descendent Selector
+typically represented by a single space ( ) character 
+— combines two selectors such that elements matched 
+by the second selector are selected if they have an 
+ancestor (parent, parent's parent, parent's parent's 
+parent, etc) element matching the first selector. 
+Selectors that utilize a descendant combinator are called 
+descendant selectors.
+
+Kombinator turunan - biasanya diwakili oleh karakter spasi tunggal () - 
+menggabungkan dua selektor sedemikian rupa sehingga elemen yang cocok 
+dengan pemilih kedua dipilih jika mereka memiliki elemen leluhur 
+(induk, induk induk, induk induk induk, dll) yang cocok dengan 
+selektor pertama. Selektor yang menggunakan kombinator turunan disebut 
+selektor keturunan.
+*/
+
+
+/* Element Selector List */
+h1,h2{
+    color: #cb997e;
+}
+
+/* Element Selector */
+body {
+    background-color: #f0efeb;
+}
+
+/* Element Selector */
+button{
+    background-color: #eddcd2;
+    font-size: 30px;
+}
+
+/* ID Selector */
+#signup{
+    background-color: #a5a58d;
+    color: #f0efeb;
+}
+
+/* Class Selectors */
+.tag2{
+    background-color: #e76f51;
+    font-size: larger;
+    color: #f1faee;
+}
+
+/* 6.Descendent Selector */
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}

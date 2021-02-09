@@ -1,0 +1,39 @@
+/* 
+The super fast color schemes generator!
+https://coolors.co/palettes/trending 
+
+5. Class Selectors:
+The CSS class selector matches elements based on 
+the contents of their class attribute.
+*/
+
+
+/* 2.Element Selector */
+body {
+    background-color: #fdfcdc;
+}
+
+/* 2.Element Selector */
+button {
+    background-color: #0081a7;
+    font-size: 20px;
+    color: whitesmoke ;
+}
+
+/* 3.Element Selector List */
+h1, h2 {
+    color: #00afb9;
+}
+
+/* 4.ID Selector */
+#signup {
+    background-color: #00afb9;
+    color: white;
+}
+
+/* Class Selectors */
+.tag{
+    background-color: #e76f51;
+    font-size: 16px;
+    color: #f7fff7;
+}

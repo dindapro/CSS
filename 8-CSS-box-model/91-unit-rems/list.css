@@ -1,0 +1,33 @@
+/* 
+mendemokan 
+list dan nested list jika diubah 2x 
+absolute: 30px menjadi 60px 
+relative: 30px (1em menjadi 1.5em) 45
+li ke 2 (45 menjadi 74) dsb
+*/
+
+html {
+    font-size: 24px;
+}
+
+article{
+    font-size: 24px;
+}
+
+section li{
+    font-size: 24px;
+    
+}
+
+/* relative */
+article li{
+    font-size: 1.5em;
+}
+
+/* 
+relative but better than em
+following the root document aka html
+*/
+nav li{
+    font-size: 1.5rem;
+}

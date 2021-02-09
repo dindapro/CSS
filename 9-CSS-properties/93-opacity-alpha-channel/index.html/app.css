@@ -1,0 +1,32 @@
+/* 
+rgba(51, 170, 51, .1)    10% opaque green
+rgba(51, 170, 51, .4)    40% opaque green
+rgba(51, 170, 51, .7)    70% opaque green
+rgba(51, 170, 51,  1)    full opaque green
+
+The opacity CSS property sets the opacity of an element. 
+Opacity is the degree to which content behind an element 
+is hidden, and is the opposite of transparency.
+
+*/
+
+section {
+    width: 400px;
+    height: 400px;
+    background-color: magenta;
+    border: 1px solid blue;
+    margin: 3px ;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5;
+}

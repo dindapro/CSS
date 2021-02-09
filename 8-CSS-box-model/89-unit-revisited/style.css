@@ -1,0 +1,47 @@
+
+/* 
+(Absolute Units)
+PX - BY FAR THE MOST
+COMMONLY USED ABSOLUTE UNIT
+1px does not necessarily equal the width
+of exactly one pixel!
+Not recommended for responsive websites.
+
+
+(percentages)
+PERCENTAGES ARE ALWAYS
+RELATIVE TO SOME OTHER VALUE
+* Sometimes, it's a value from the parent
+and other times it's a value from the
+element itself.
+* width: 50% - half the width of the parent
+line-height: 50% - half the font-size of
+the element itself
+
+
+(line-height)
+The line-height CSS property sets the height of a line box. 
+It's commonly used to set the distance between lines of text. 
+On block-level elements, it specifies the minimum height of line boxes 
+within the element. On non-replaced inline elements, 
+it specifies the height that is used to calculate line box height.
+*/
+
+section {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+
+div {
+    height: 70%;
+    width: 70%;
+    background-color: black;
+}
+
+h1 {
+    font-size: 40px;
+    border: 2px solid black;
+    line-height: 190%;
+
+}

@@ -1,0 +1,30 @@
+/* 
+INLINE
+Width & Height are
+ignored. Margin &
+padding push elements
+away horizontally but
+not vertically.
+
+BLOCK
+Block elements break
+the flow of a
+document. Width,
+Height, Margin, &
+Padding are respected.
+
+*/
+
+h1 {
+    background-color: antiquewhite;
+    color: blue;
+    border: 1px solid brown;
+    display: inline;
+}
+
+span {
+    background-color: antiquewhite;
+    color: blue;
+    border: 1px solid brown;
+    display: block;
+}

@@ -1,0 +1,98 @@
+/* 
+Pseudo Classes
+A CSS pseudo-class is a keyword added to a selector that specifies a special state 
+of the selected element(s). For example, :hover can be used to change a button's color 
+when the user's pointer hovers over it.
+
+:active
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+
+:nth-of-type()
+The :nth-of-type() CSS pseudo-class matches elements of a given type (tag name), 
+based on their position among a group of siblings.
+*/
+
+
+/* Element Selector List */
+h1,h2{
+    color: #cb997e;
+}
+
+/* Element Selector */
+body {
+    background-color: #f0efeb;
+}
+
+/* Element Selector */
+button{
+    background-color: #eddcd2;
+    font-size: 30px;
+}
+
+/* ID Selector */
+#signup{
+    background-color: #a5a58d;
+    color: #f0efeb;
+}
+
+/* Class Selectors */
+.tag2{
+    background-color: #e76f51;
+    font-size: larger;
+    color: #f1faee;
+}
+
+/* Descendent Selector */
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}
+
+/* Adjacent Selector */
+h2 + button {
+    font-size: 30px;
+    background-color: #fcf5c7;
+}
+
+/* DIRECT Descendent Selector */
+footer > a {
+    color:#26b144;
+}
+
+ /* ATRIBUTE SELECTOR */
+input[type="password"] {
+    color: greenyellow;
+} 
+
+a[href*="google"]{
+    color: #1d3557;
+}
+
+/* Pseudo Classes */
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:hover {
+    background-color: #f76c5e;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(3n){
+    background-color: #dfe8dc;
+}
+
+

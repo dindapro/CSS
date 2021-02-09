@@ -1,0 +1,32 @@
+/* 
+Mempelajari properties berikut :
+
+1. color:
+The <color> CSS data type represents a color in the sRGB color space.
+A <color> may also include an alpha-channel transparency value,
+indicating how the color should composite with its background.
+
+2. background-color:
+The background-color CSS property sets the background color of an element.
+
+3. background:
+The background shorthand CSS property 
+sets all background style properties at once, 
+such as color, image, origin and size, or repeat method.
+*/
+
+h2 {
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: rgb(228, 161, 37);
+}
+

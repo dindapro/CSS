@@ -1,0 +1,43 @@
+/* 
+Mempelajari properties berikut:
+
+1. text-align
+The text-align CSS property sets the horizontal alignment 
+of a block element or table-cell box. This means it works 
+like vertical-align but in the horizontal direction.
+
+2. font-weight
+The font-weight CSS property sets the weight (or boldness) 
+of the font. The weights available depend on the font-family 
+that is currently set.
+
+3. text-decoration
+The text-decoration attribute defines whether text is decorated 
+with an underline, overline and/or strike-through. 
+It is a shorthand for the text-decoration-line and 
+text-decoration-style properties.
+
+4. line-height
+The line-height CSS property sets the height of a line box. 
+It's commonly used to set the distance between lines of text. 
+On block-level elements, it specifies the minimum height 
+of line boxes within the element. On non-replaced inline elements, 
+it specifies the height that is used to calculate line box height.
+
+5. letter-spacing
+The letter-spacing attribute controls spacing between text characters, 
+in addition to any spacing from the kerning attribute.
+
+*/
+
+
+h1 {
+     text-align: center;
+     font-weight: 400;
+     text-decoration: orange underline wavy;
+     letter-spacing: 15px;
+}
+
+p {
+    line-height: 2;  
+}
