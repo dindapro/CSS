@@ -20,7 +20,7 @@ div {
 #relative #middle {
     position: relative;
     top: 50px;
-    left: 70px;
+    left: 50px;
 }
 
 #absolute {
@@ -36,5 +36,5 @@ div {
 #fixed #middle {
     position: fixed;
     top: 0;
-    left: 240px;
+    left: 400px;
 }
